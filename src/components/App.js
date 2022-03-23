@@ -16,8 +16,8 @@ function App() {
     setTasksStateArray(newTaskArray)
   }
 
-  function onTaskFormSubmit(newTask) {
-    const newTaskArray = [...tasksStateArray, newTask]
+  function onTaskFormSubmit(formData) {
+    const newTaskArray = [...tasksStateArray, formData]
     setTasksStateArray(newTaskArray);
   }
 
